@@ -1,6 +1,6 @@
 
 
-const predictions = [
+const predictions2 = [
   {
     "id": 1,
     "nombre": "El Loco",

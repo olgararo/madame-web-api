@@ -10,15 +10,16 @@ import predictionController from "../controller/PredictionController.js";
 
 const router = express.Router();
 
-//router.get("/prediction", predictionController.getRandomReading);
+router.get("/prediction", predictionController.getRandomReading);
+/* uso esta otra configuración de ruta para probar que funciona antes de tener datos
 router.get("/prediction", (req, res) => {
-  // 1. Aquí va tu lógica para generar la predicción...
+  // 1. Aquí va la lógica para generar la predicción...
   const miPrediccion = {
-    prediccion: "Hoy será un gran día para aprender sobre APIs.",
+    prediccion: "Hoy será un gran día para crear y aprender sobre APIs.",
   };
 
-  // 2. ¡MUY IMPORTANTE! Enviar la respuesta al cliente.
+  // 2. Enviar la respuesta al cliente.
   res.json(miPrediccion); 
-});
+});*/
 
 export default router;
