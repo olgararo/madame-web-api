@@ -2,7 +2,7 @@
 
 - Importo el controlador  predictionCOntroller
 - Creo un router (mini servidor para agrupar routas)
-- Definimos la primera ruta: "Cuando llegue una petición GET a la URL '/prediccion'...ejecuta la función 'getRandomReading' de nuestro controlador".
+- Definimos la primera ruta: "Cuando llegue una petición GET a la URL '/prediccion'...ejecuta la función 'getRandomReading' de mi controlador".
  */
 
 import express from "express";

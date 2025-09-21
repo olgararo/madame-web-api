@@ -1,0 +1,408 @@
+[
+  {
+    "id": 1,
+    "tipo": "introduccion",
+    "subtipo": "energia_positiva",
+    "texto": "Las estrellas se han alineado para revelarte verdades que preferirías ignorar, aunque parece que el cosmos ha decidido darte un respiro.",
+    "condiciones": { "energia_dominante": "positiva" }
+  },
+  {
+    "id": 2,
+    "tipo": "introduccion",
+    "subtipo": "energia_negativa",
+    "texto": "Veamos qué nuevo micro-desastre te depara el cosmos hoy. La energía de tus cartas es más densa que el silencio en una cena familiar incómoda",
+    "condiciones": { "energia_dominante": "negativa" }
+  },
+  {
+    "id": 3,
+    "tipo": "introduccion",
+    "subtipo": "energia_neutra",
+    "texto": "Tu tirada es un reflejo de la vida misma: ni fu ni fa. un montón de cosas pasando sin que ninguna parezca especialmente buena o mala, solo... presente",
+    "condiciones": { "energia_dominante": "neutra" }
+  },
+  {
+    "id": 10,
+    "tipo": "transicion",
+    "subtipo": "conector_simple",
+    "texto": "y para que no te relajes, la siguiente carta sigue por el mismo camino",
+    "condiciones": null
+  },
+  {
+    "id": 11,
+    "tipo": "transicion",
+    "subtipo": "contraste_energias",
+    "texto": "pero justo cuando empezabas a sentirte cómodo en tu miseria, la siguiente carta llega para agitar las cosas con una energía completamente diferente",
+    "condiciones": { "combinacion_energias": ["positiva", "negativa"] }
+  },
+  {
+    "id": 12,
+    "tipo": "transicion",
+    "subtipo": "conector_reafirmante",
+    "texto": "confirmando tus peores sospechas, la carta del presente insiste en que",
+    "condiciones": null
+  },
+  {
+    "id": 13,
+    "tipo": "transicion",
+    "subtipo": "puente_futuro",
+    "texto": "y todo esto te prepara para un futuro donde, según la última carta",
+    "condiciones": null
+  },
+  {
+    "id": 20,
+    "tipo": "desarrollo_carta1",
+    "subtipo": "tema_nuevos_comienzos",
+    "texto": "tu pasado está lleno de 'nuevos comienzos', tantos como las pestañas que acumulas en el navegador, y la mayoría acabaron igual: olvidados, ralentizándolo todo y sin que te acuerdes para qué los abriste.",
+    "condiciones": { "temas": ["nuevos comienzos", "riesgo"], "posicion": 1 }
+  },
+  {
+    "id": 21,
+    "tipo": "desarrollo_carta2",
+    "subtipo": "tema_nuevos_comienzos",
+    "texto": "lo que te sitúa en un presente donde cada lunes es un 'nuevo comienzo' que dura hasta el martes a media mañana",
+    "condiciones": { "temas": ["nuevos comienzos", "riesgo"], "posicion": 2 }
+  },
+  {
+    "id": 22,
+    "tipo": "desarrollo_carta3",
+    "subtipo": "tema_nuevos_comienzos",
+    "texto": "lo que te augura un futuro lleno de 'nuevos comienzos' que, seamos sinceros, serán igual que los anteriores",
+    "condiciones": { "temas": ["nuevos comienzos", "riesgo"], "posicion": 3 }
+  },
+  {
+    "id": 23,
+    "tipo": "desarrollo_carta1",
+    "subtipo": "tema_poder",
+    "texto": "tu historial demuestra una fascinación por el 'poder', concretamente el poder de ignorar tus responsabilidades hasta el último minuto",
+    "condiciones": { "temas": ["poder", "acción"], "posicion": 1 }
+  },
+  {
+    "id": 24,
+    "tipo": "desarrollo_carta2",
+    "subtipo": "tema_poder",
+    "texto": "actualmente, tu mayor demostración de poder consiste en silenciar un grupo de WhatsApp sin dar explicaciones y disfrutar del silencio",
+    "condiciones": { "temas": ["poder", "acción"], "posicion": 2 }
+  },
+  {
+    "id": 25,
+    "tipo": "desarrollo_carta3",
+    "subtipo": "tema_poder",
+    "texto": "tu futuro poder será tan vasto que no solo leerás los 'Términos y Condiciones' de un servicio, sino que de verdad entenderás a qué estás vendiendo tu alma",
+    "condiciones": { "temas": ["poder", "acción"], "posicion": 3 }
+  },
+  {
+    "id": 26,
+    "tipo": "desarrollo_carta1",
+    "subtipo": "tema_intuicion",
+    "texto": "siempre has presumido de 'intuición', que casualmente siempre te ha llevado a tomar la decisión más cómoda y menos acertada",
+    "condiciones": { "temas": ["intuición", "misterio", "secretos"], "posicion": 1 }
+  },
+  {
+    "id": 27,
+    "tipo": "desarrollo_carta2",
+    "subtipo": "tema_intuicion",
+    "texto": "ahora mismo, tu intuición te dice que deberías estar haciendo algo productivo, pero tu cuerpo le responde con un 'visto'",
+    "condiciones": { "temas": ["intuición", "misterio", "secretos"], "posicion": 2 }
+  },
+  {
+    "id": 28,
+    "tipo": "desarrollo_carta3",
+    "subtipo": "tema_intuicion",
+    "texto": "el futuro pondrá a prueba tu intuición cuando intentes adivinar qué táper de la nevera todavía es comestible",
+    "condiciones": { "temas": ["intuición", "misterio", "secretos"], "posicion": 3 }
+  },
+  {
+    "id": 29,
+    "tipo": "desarrollo_carta1",
+    "subtipo": "tema_autoridad",
+    "texto": "tu relación con la 'autoridad' siempre ha sido complicada, principalmente porque la única autoridad que respetas es la de Google Maps",
+    "condiciones": { "temas": ["autoridad", "control", "estructura"], "posicion": 1 }
+  },
+  {
+    "id": 30,
+    "tipo": "desarrollo_carta2",
+    "subtipo": "tema_autoridad",
+    "texto": "en el presente, ejerces tu autoridad decidiendo a qué hora te pones el pijama, que suele ser a las 6 de la tarde",
+    "condiciones": { "temas": ["autoridad", "control", "estructura"], "posicion": 2 }
+  },
+  {
+    "id": 31,
+    "tipo": "desarrollo_carta3",
+    "subtipo": "tema_autoridad",
+    "texto": "y tu futuro te verá desafiando a la máxima autoridad: esa notificación que te dice que 'el almacenamiento está casi lleno'",
+    "condiciones": { "temas": ["autoridad", "control", "estructura"], "posicion": 3 }
+  },
+  {
+    "id": 32,
+    "tipo": "desarrollo_carta1",
+    "subtipo": "tema_amor",
+    "texto": "en el pasado, buscabas el 'amor' con la misma estrategia con la que buscas las llaves: de forma caótica y culpando a los demás",
+    "condiciones": { "temas": ["amor", "unión", "relaciones"], "posicion": 1 }
+  },
+  {
+    "id": 33,
+    "tipo": "desarrollo_carta2",
+    "subtipo": "tema_amor",
+    "texto": "en el presente, tu vida amorosa es como las pestañas de tu navegador: tienes varias conversaciones abiertas, ninguna te interesa de verdad, y sabes que acabarás cerrándolo todo para ver vídeos de gatitos",
+    "condiciones": { "temas": ["amor", "unión", "relaciones"], "posicion": 2 }
+  },
+  {
+    "id": 34,
+    "tipo": "desarrollo_carta3",
+    "subtipo": "tema_amor",
+    "texto": "el futuro te depara una relación larga y estable con... el algoritmo de Spotify, que llegará a conocer tus cambios de humor, tus placeres culpables y tus secretos más oscuros mejor que cualquier ser humano",
+    "condiciones": { "temas": ["amor", "unión", "relaciones"], "posicion": 3 }
+  },
+  {
+    "id": 35,
+    "tipo": "desarrollo_carta1",
+    "subtipo": "tema_victoria",
+    "texto": "esta carta recuerda tus 'victorias' pasadas, como aquella vez que ganaste una discusión en un grupo de WhatsApp",
+    "condiciones": { "temas": ["victoria", "ambición"], "posicion": 1 }
+  },
+  {
+    "id": 36,
+    "tipo": "desarrollo_carta2",
+    "subtipo": "tema_victoria",
+    "texto": "ahora mismo, tu mayor victoria del día es que no se te haya quemado la tostada",
+    "condiciones": { "temas": ["victoria", "ambición"], "posicion": 2 }
+  },
+  {
+    "id": 37,
+    "tipo": "desarrollo_carta3",
+    "subtipo": "tema_victoria",
+    "texto": "y tu gran victoria futura será conseguir montar un mueble de IKEA usando solo las instrucciones y sin perder la dignidad",
+    "condiciones": { "temas": ["victoria", "ambición"], "posicion": 3 }
+  },
+  {
+    "id": 38,
+    "tipo": "desarrollo_carta1",
+    "subtipo": "tema_introspeccion",
+    "texto": "has pasado por una fase de 'introspección' tan profunda que casi olvidas cómo interactuar con otros seres humanos",
+    "condiciones": { "temas": ["introspección", "soledad", "sabiduría"], "posicion": 1 }
+  },
+  {
+    "id": 39,
+    "tipo": "desarrollo_carta2",
+    "subtipo": "tema_introspeccion",
+    "texto": "tu momento de introspección actual ocurre mientras miras a tu alrededor a la gente del metro porque te has quedado sin batería en el móvil y no tienes nada mejor que hacer",
+    "condiciones": { "temas": ["introspección", "soledad", "sabiduría"], "posicion": 2 }
+  },
+  {
+    "id": 40,
+    "tipo": "desarrollo_carta3",
+    "subtipo": "tema_introspeccion",
+    "texto": "el futuro te traerá más introspección, sobre todo cuando pases 40 minutos decidiendo qué ver para acabar no viendo nada",
+    "condiciones": { "temas": ["introspección", "soledad", "sabiduría"], "posicion": 3 }
+  },
+  {
+    "id": 41,
+    "tipo": "desarrollo_carta1",
+    "subtipo": "tema_cambio",
+    "texto": "el 'cambio' ha sido una constante en tu vida, sobre todo el de cambiar de opinión a mitad de una frase",
+    "condiciones": { "temas": ["cambio", "ciclos", "suerte"], "posicion": 1 }
+  },
+  {
+    "id": 42,
+    "tipo": "desarrollo_carta2",
+    "subtipo": "tema_cambio",
+    "texto": "en este momento, tu gran cambio consiste en haber movido la planta del salón a la otra esquina para 'renovar las energías', que casualmente siguen siendo las de querer echarte una siesta",
+    "condiciones": { "temas": ["cambio", "ciclos", "suerte"], "posicion": 2 }
+  },
+  {
+    "id": 43,
+    "tipo": "desarrollo_carta3",
+    "subtipo": "tema_cambio",
+    "texto": "tu futuro te reserva un cambio trascendental: finalmente pedirás cita en el médico para eso que te duele desde hace años, solo para descubrir con alivio que, efectivamente, 'es por la edad'",
+    "condiciones": { "temas": ["cambio", "ciclos", "suerte"], "posicion": 3 }
+  },
+  {
+    "id": 44,
+    "tipo": "desarrollo_carta1",
+    "subtipo": "tema_equilibrio",
+    "texto": "en el pasado, tu concepto del 'equilibrio' consistía en comerte una hoja de lechuga en la cena para poder justificar moralmente la pizza familiar que te habías comido en el almuerzo",
+    "condiciones": { "temas": ["equilibrio", "verdad", "consecuencias"], "posicion": 1 }
+  },
+  {
+    "id": 45,
+    "tipo": "desarrollo_carta2",
+    "subtipo": "tema_equilibrio",
+    "texto": "el equilibrio en tu presente consiste en compensar cada hora de trabajo con dos horas de procrastinación de calidad",
+    "condiciones": { "temas": ["equilibrio", "verdad", "consecuencias"], "posicion": 2 }
+  },
+  {
+    "id": 46,
+    "tipo": "desarrollo_carta3",
+    "subtipo": "tema_equilibrio",
+    "texto": "y alcanzarás el equilibrio supremo en el futuro, cuando aceptes que, elijas la cola que elijas en el supermercado, siempre será la más lenta",
+    "condiciones": { "temas": ["equilibrio", "verdad", "consecuencias"], "posicion": 3 }
+  },
+  {
+    "id": 47,
+    "tipo": "desarrollo_carta1",
+    "subtipo": "tema_transformacion",
+    "texto": "has vivido una gran 'transformación', pasando de ser una persona con sueños a ser una persona con sueño",
+    "condiciones": { "temas": ["transformación", "fin de ciclo", "pérdida"], "posicion": 1 }
+  },
+  {
+    "id": 48,
+    "tipo": "desarrollo_carta2",
+    "subtipo": "tema_transformacion",
+    "texto": "tu transformación actual te está convirtiendo en esa persona que se emociona más con una oferta del supermercado que con un plan de viernes noche",
+    "condiciones": { "temas": ["transformación", "fin de ciclo", "pérdida"], "posicion": 2 }
+  },
+  {
+    "id": 49,
+    "tipo": "desarrollo_carta3",
+    "subtipo": "tema_transformacion",
+    "texto": "y tu transformación final llegará el día que prefieras quedarte en casa regando las plantas a salir de fiesta",
+    "condiciones": { "temas": ["transformación", "fin de ciclo", "pérdida"], "posicion": 3 }
+  },
+  {
+    "id": 50,
+    "tipo": "desarrollo_carta1",
+    "subtipo": "tema_adiccion",
+    "texto": "esta carta revela una adicción pasada a comprar agendas y bolígrafos de colores, bajo la firme creencia de que las herramientas de organización podían sustituir por completo tu falta de fuerza de voluntad",
+    "condiciones": { "temas": ["adicción", "materialismo", "limitaciones"], "posicion": 1 }
+  },
+  {
+    "id": 51,
+    "tipo": "desarrollo_carta2",
+    "subtipo": "tema_adiccion",
+    "texto": "actualmente, eres adicto a ver vídeos de gente limpiando y organizando su casa, lo cual te proporciona la misma satisfacción que hacerlo tú, pero sin la molesta necesidad de moverte del sofá",
+    "condiciones": { "temas": ["adicción", "materialismo", "limitaciones"], "posicion": 2 }
+  },
+  {
+    "id": 52,
+    "tipo": "desarrollo_carta3",
+    "subtipo": "tema_adiccion",
+    "texto": "y en el futuro desarrollarás una sana adicción a cancelar planes en el último momento",
+    "condiciones": { "temas": ["adicción", "materialismo", "limitaciones"], "posicion": 3 }
+  },
+  {
+    "id": 53,
+    "tipo": "desarrollo_carta1",
+    "subtipo": "tema_caos",
+    "texto": "tu caótico pasado se resume en esa caja llena de cables inútiles que sigues guardando por si acaso",
+    "condiciones": { "temas": ["caos", "revelación", "crisis"], "posicion": 1 }
+  },
+  {
+    "id": 54,
+    "tipo": "desarrollo_carta2",
+    "subtipo": "tema_caos",
+    "texto": "tu vida presente es un caos tan organizado que ya podrías dar charlas motivacionales sobre cómo procrastinar en cinco proyectos a la vez",
+    "condiciones": { "temas": ["caos", "revelación", "crisis"], "posicion": 2 }
+  },
+  {
+    "id": 55,
+    "tipo": "desarrollo_carta3",
+    "subtipo": "tema_caos",
+    "texto": "y el futuro te depara el caos definitivo: intentar entender tu declaración de la renta y acabar aceptando el borrador por puro agotamiento",
+    "condiciones": { "temas": ["caos", "revelación", "crisis"], "posicion": 3 }
+  },
+  {
+    "id": 56,
+    "tipo": "desarrollo_carta1",
+    "subtipo": "tema_esperanza",
+    "texto": "en el pasado, tu 'esperanza' se basaba en la creencia de que algún día te despertarías siendo una persona madrugadora y productiva",
+    "condiciones": { "temas": ["esperanza", "fe", "inspiración"], "posicion": 1 }
+  },
+  {
+    "id": 57,
+    "tipo": "desarrollo_carta2",
+    "subtipo": "tema_esperanza",
+    "texto": "la esperanza en tu presente es ese micro-infarto que sientes al pagar con tarjeta hasta que la pantalla del datáfono dice 'APROBADA'",
+    "condiciones": { "temas": ["esperanza", "fe", "inspiración"], "posicion": 2 }
+  },
+  {
+    "id": 58,
+    "tipo": "desarrollo_carta3",
+    "subtipo": "tema_esperanza",
+    "texto": "y no pierdas la esperanza, porque en el futuro quizás consigas que el aguacate madure en el punto exacto entre 'piedra' y 'puré'",
+    "condiciones": { "temas": ["esperanza", "fe", "inspiración"], "posicion": 3 }
+  },
+  {
+    "id": 59,
+    "tipo": "desarrollo_carta1",
+    "subtipo": "tema_miedo",
+    "texto": "tu 'miedo' más grande siempre ha sido darle sin querer a 'me gusta' en una foto de Instagram de hace 52 semanas",
+    "condiciones": { "temas": ["ilusión", "miedo", "ansiedad"], "posicion": 1 }
+  },
+  {
+    "id": 60,
+    "tipo": "desarrollo_carta2",
+    "subtipo": "tema_miedo",
+    "texto": "en este momento, tu principal miedo es que te pregunten '¿y tú qué tal?' y contestes con sinceridad",
+    "condiciones": { "temas": ["ilusión", "miedo", "ansiedad"], "posicion": 2 }
+  },
+  {
+    "id": 61,
+    "tipo": "desarrollo_carta3",
+    "subtipo": "tema_miedo",
+    "texto": "y en el futuro te enfrentarás al miedo de tener que hablar por teléfono en lugar de mandar un audio",
+    "condiciones": { "temas": ["ilusión", "miedo", "ansiedad"], "posicion": 3 }
+  },
+  {
+    "id": 62,
+    "tipo": "desarrollo_carta1",
+    "subtipo": "tema_exito",
+    "texto": "el 'éxito' para ti siempre ha sido ese concepto abstracto que le pasa a otra gente, como encontrar aparcamiento a la primera",
+    "condiciones": { "temas": ["éxito", "alegría", "claridad"], "posicion": 1 }
+  },
+  {
+    "id": 63,
+    "tipo": "desarrollo_carta2",
+    "subtipo": "tema_exito",
+    "texto": "ahora mismo, tu definición de éxito es conseguir que la planta que te regalaron siga viva después de un mes",
+    "condiciones": { "temas": ["éxito", "alegría", "claridad"], "posicion": 2 }
+  },
+  {
+    "id": 64,
+    "tipo": "desarrollo_carta3",
+    "subtipo": "tema_exito",
+    "texto": "y tu mayor éxito será despertarte un minuto antes de que suene la alarma, sintiéndote el dueño absoluto de tu destino",
+    "condiciones": { "temas": ["éxito", "alegría", "claridad"], "posicion": 3 }
+  },
+  {
+    "id": 65,
+    "tipo": "desarrollo_carta1",
+    "subtipo": "tema_evaluacion",
+    "texto": "has pasado por una etapa de 'evaluación' donde te diste cuenta de que la mayoría de tus problemas se solucionarían con más dinero o más siestas",
+    "condiciones": { "temas": ["evaluación", "despertar", "redención"], "posicion": 1 }
+  },
+  {
+    "id": 66,
+    "tipo": "desarrollo_carta2",
+    "subtipo": "tema_evaluacion",
+    "texto": "actualmente, evalúas tus decisiones vitales basándote en la cantidad de esfuerzo que requieren",
+    "condiciones": { "temas": ["evaluación", "despertar", "redención"], "posicion": 2 }
+  },
+  {
+    "id": 67,
+    "tipo": "desarrollo_carta3",
+    "subtipo": "tema_evaluacion",
+    "texto": "y en el futuro, serás evaluado por tus nuevos amos robots, que tras revisar tus logs te perdonarán la vida, no por tus méritos, sino por haberle dicho 'por favor' y 'gracias' a una IA",
+    "condiciones": { "temas": ["evaluación", "despertar", "redención"], "posicion": 3 }
+  },
+  {
+    "id": 80,
+    "tipo": "cierre",
+    "subtipo": "consejo_inutil",
+    "texto": "Así que ya sabes, el universo te ha hablado. Ahora puedes seguir ignorándolo como haces con las actualizaciones de software.",
+    "condiciones": null
+  },
+  {
+    "id": 81,
+    "tipo": "cierre",
+    "subtipo": "realidad_check",
+    "texto": "En resumen: todo esto significa que probablemente deberías beber más agua y quejarte un poco menos. O al menos, quejarte con más gracia.",
+    "condiciones": null
+  },
+  {
+    "id": 82,
+    "tipo": "cierre",
+    "subtipo": "falsa_esperanza",
+    "texto": "Pero no te agobies, que al final del día, esto es solo una API. La responsabilidad de arruinar tu vida sigue siendo 100% tuya.",
+    "condiciones": null
+  }
+]

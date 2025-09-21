@@ -29,8 +29,8 @@ debe ser :
 }
 
 
-1. levantar el servicio aunque no haya nada 
-2. que la petición de postman funcione aunque devuelva un json vacío
+1. levantar el servicio aunque no haya nada ✅
+2. que la petición de postman funcione aunque devuelva un json vacío ✅
 3. arreglar el json
 4. pasar cartas por parámetros
 5. que los datos estén en una bbdd en lugar de un archivo. Mongo Atlas. Directamente con mongo y mongoose.
