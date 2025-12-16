@@ -1,4 +1,8 @@
-/* (3.)Este archivo solo sirve para contener y exportar los datos 
+/* PRIMERA VERSIÓN DE API:
+Ofrece predicciones aleatorias al hacer una petición GET http://localhost:3001/api/prediction
+
+
+(3.)Este archivo solo sirve para contener y exportar los datos 
 - Se guarda el array de predicciones y se exporta
 - Después se va al controlador a implementar la lógica*/
 
