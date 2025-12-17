@@ -1,0 +1,200 @@
+[
+    {
+      "id": 1,
+      "name": "El Loco",
+      "arcana": "mayor",
+      "number": 0,
+      "energy": "positiva",
+      "themes": ["nuevos comienzos", "riesgo", "espontaneidad", "libertad"],
+      "image_url": "/images/el-loco.jpg"
+    },
+    {
+      "id": 2,
+      "name": "El Mago",
+      "arcana": "mayor",
+      "number": 1,
+      "energy": "positiva",
+      "themes": ["poder", "acción", "creatividad", "manifestación"],
+      "image_url": "/images/el-mago.jpg"
+    },
+    {
+      "id": 3,
+      "name": "La Sacerdotisa",
+      "arcana": "mayor",
+      "number": 2,
+      "energy": "neutra",
+      "themes": ["intuición", "misterio", "subconsciente", "secretos"],
+      "image_url": "/images/la-sacerdotisa.jpg"
+    },
+    {
+      "id": 4,
+      "name": "La Emperatriz",
+      "arcana": "mayor",
+      "number": 3,
+      "energy": "positiva",
+      "themes": ["abundancia", "creación", "naturaleza", "confort"],
+      "image_url": "/images/la-emperatriz.jpg"
+    },
+    {
+      "id": 5,
+      "name": "El Emperador",
+      "arcana": "mayor",
+      "number": 4,
+      "energy": "neutra",
+      "themes": ["autoridad", "control", "estructura", "disciplina"],
+      "image_url": "/images/el-emperador.jpg"
+    },
+    {
+      "id": 6,
+      "name": "El Sumo Sacerdote",
+      "arcana": "mayor",
+      "number": 5,
+      "energy": "neutra",
+      "themes": ["tradición", "normas", "conformidad", "creencias"],
+      "image_url": "/images/el-sumo-sacerdote.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Los Amantes",
+      "arcana": "mayor",
+      "number": 6,
+      "energy": "positiva",
+      "themes": ["amor", "unión", "elección", "relaciones"],
+      "image_url": "/images/los-amantes.jpg"
+    },
+    {
+      "id": 8,
+      "name": "El Carro",
+      "arcana": "mayor",
+      "number": 7,
+      "energy": "positiva",
+      "themes": ["victoria", "ambición", "determinación", "control"],
+      "image_url": "/images/el-carro.jpg"
+    },
+    {
+      "id": 9,
+      "name": "La Fuerza",
+      "arcana": "mayor",
+      "number": 8,
+      "energy": "positiva",
+      "themes": ["fuerza interior", "coraje", "paciencia", "compasión"],
+      "image_url": "/images/la-fuerza.jpg"
+    },
+    {
+      "id": 10,
+      "name": "El Ermitaño",
+      "arcana": "mayor",
+      "number": 9,
+      "energy": "neutra",
+      "themes": ["introspección", "soledad", "sabiduría", "guía interior"],
+      "image_url": "/images/el-ermitano.jpg"
+    },
+    {
+      "id": 11,
+      "name": "La Rueda de la Fortuna",
+      "arcana": "mayor",
+      "number": 10,
+      "energy": "neutra",
+      "themes": ["cambio", "ciclos", "suerte", "destino"],
+      "image_url": "/images/la-rueda-de-la-fortuna.jpg"
+    },
+    {
+      "id": 12,
+      "name": "La Justicia",
+      "arcana": "mayor",
+      "number": 11,
+      "energy": "neutra",
+      "themes": ["equilibrio", "verdad", "consecuencias", "ley"],
+      "image_url": "/images/la-justicia.jpg"
+    },
+    {
+      "id": 13,
+      "name": "El Colgado",
+      "arcana": "mayor",
+      "number": 12,
+      "energy": "neutra",
+      "themes": ["sacrificio", "espera", "rendición", "nueva perspectiva"],
+      "image_url": "/images/el-colgado.jpg"
+    },
+    {
+      "id": 14,
+      "name": "La Muerte",
+      "arcana": "mayor",
+      "number": 13,
+      "energy": "negativa",
+      "themes": ["transformación", "fin de ciclo", "cambio inevitable", "pérdida"],
+      "image_url": "/images/la-muerte.jpg"
+    },
+    {
+      "id": 15,
+      "name": "La Templanza",
+      "arcana": "mayor",
+      "number": 14,
+      "energy": "positiva",
+      "themes": ["equilibrio", "paciencia", "moderación", "armonía"],
+      "image_url": "/images/la-templanza.jpg"
+    },
+    {
+      "id": 16,
+      "name": "El Diablo",
+      "arcana": "mayor",
+      "number": 15,
+      "energy": "negativa",
+      "themes": ["adicción", "materialismo", "limitaciones", "tentación"],
+      "image_url": "/images/el-diablo.jpg"
+    },
+    {
+      "id": 17,
+      "name": "La Torre",
+      "arcana": "mayor",
+      "number": 16,
+      "energy": "negativa",
+      "themes": ["caos", "revelación", "crisis", "cambio súbito"],
+      "image_url": "/images/la-torre.jpg"
+    },
+    {
+      "id": 18,
+      "name": "La Estrella",
+      "arcana": "mayor",
+      "number": 17,
+      "energy": "positiva",
+      "themes": ["esperanza", "fe", "inspiración", "sanación"],
+      "image_url": "/images/la-estrella.jpg"
+    },
+    {
+      "id": 19,
+      "name": "La Luna",
+      "arcana": "mayor",
+      "number": 18,
+      "energy": "neutra",
+      "themes": ["ilusión", "miedo", "ansiedad", "subconsciente"],
+      "image_url": "/images/la-luna.jpg"
+    },
+    {
+      "id": 20,
+      "name": "El Sol",
+      "arcana": "mayor",
+      "number": 19,
+      "energy": "positiva",
+      "themes": ["éxito", "alegría", "claridad", "vitalidad"],
+      "image_url": "/images/el-sol.jpg"
+    },
+    {
+      "id": 21,
+      "name": "El Juicio",
+      "arcana": "mayor",
+      "number": 20,
+      "energy": "neutra",
+      "themes": ["evaluación", "despertar", "redención", "consecuencias"],
+      "image_url": "/images/el-juicio.jpg"
+    },
+    {
+      "id": 22,
+      "name": "El Mundo",
+      "arcana": "mayor",
+      "number": 21,
+      "energy": "positiva",
+      "themes": ["éxito", "realización", "integración", "fin de ciclo"],
+      "image_url": "/images/el-mundo.jpg"
+    }
+  ]
