@@ -176,26 +176,35 @@ class PredictionModel {
     // Assemble text with proper punctuation
     const fragments = [intro, dev1, trans1, dev2, trans2, dev3, ending];
     
-    const fullText = fragments
+    const cleanFragments = fragments
       .filter(f => f !== null)
-      .map((f, index) => {
-        let text = f.text.trim();
+      .map(f => ({ text: f.text.trim(), type: f.type }));
+    
+    let fullText = '';
+    
+    for (let i = 0; i < cleanFragments.length; i++) {
+      const fragment = cleanFragments[i];
+      const nextFragment = cleanFragments[i + 1];
+      
+      // Add fragment text as is (already properly formatted in JSON)
+      fullText += fragment.text;
+      
+      // Add appropriate punctuation between fragments
+      if (nextFragment) {
+        // Check if current fragment already ends with punctuation
+        const endsWithPunctuation = /[.!?]$/.test(fragment.text);
         
-        // Capitalize first letter of each fragment (except first)
-        if (index > 0 && text.length > 0) {
-          // Only capitalize if it doesn't start with a lowercase connector word
-          const startsWithConnector = /^(y |pero |aunque |sin embargo |además |porque )/i.test(text);
-          if (!startsWithConnector && !text.match(/^[A-Z]/)) {
-            text = text.charAt(0).toUpperCase() + text.slice(1);
-          }
+        if (endsWithPunctuation) {
+          // Just add space
+          fullText += ' ';
+        } else {
+          // Add comma and space
+          fullText += ', ';
         }
-        
-        return text;
-      })
-      .join(', ') // Use comma as default separator
-      .replace(/([.!?]),\s*/g, '$1 ') // Replace comma after punctuation with space
-      .replace(/,\s+([A-Z])/g, '. $1') // Replace comma before capital letter with period
-      .trim();
+      }
+    }
+    
+    return fullText.trim();
     
     return {
       prediction: fullText,
