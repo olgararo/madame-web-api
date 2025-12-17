@@ -518,5 +518,54 @@
     "subtype": "falsa_esperanza",
     "text": "Pero no te agobies, la responsabilidad de arruinar tu vida sigue siendo completamente tuya.",
     "conditions": null
+  },
+  {
+    "id": 83,
+    "type": "cierre",
+    "subtype": "nihilismo_millennial",
+    "text": "De todas formas, no te preocupes demasiado, el fin del mundo te pillará probablemente mirando memes en el baño.",
+    "conditions": null
+  },
+  {
+    "id": 84,
+    "type": "cierre",
+    "subtype": "ego_check",
+    "text": "Recuerda que eres el protagonista de tu propia vida, aunque a veces parezcas un extra sin diálogo en una película de bajo presupuesto.",
+    "conditions": null
+  },
+  {
+    "id": 85,
+    "type": "cierre",
+    "subtype": "optimismo_toxico",
+    "text": "Pero mira el lado positivo, al menos hoy no te ha caído un meteorito encima, aunque el día todavía no ha terminado.",
+    "conditions": null
+  },
+  {
+    "id": 86,
+    "type": "cierre",
+    "subtype": "diseño_pobre",
+    "text": "Concluyendo, el universo tiene un plan maestro para ti, pero se nota que lo ha diseñado alguien con muy pocas ganas de trabajar.",
+    "conditions": null
+  },
+  {
+    "id": 87,
+    "type": "cierre",
+    "subtype": "perspectiva_cosmica",
+    "text": "Así que relájate, nada de lo que hagas hoy importará realmente cuando el sol se trague la Tierra dentro de unos millones de años.",
+    "conditions": null
+  },
+  {
+    "id": 88,
+    "type": "cierre",
+    "subtype": "consejo_financiero",
+    "text": "En fin, sigue buscando respuestas en el tarot en lugar de en tu cuenta bancaria, seguro que así te va muchísimo mejor, máquina.",
+    "conditions": null
+  },
+  {
+    "id": 89,
+    "type": "cierre",
+    "subtype": "salud_mental",
+    "text": "De todos modos, un poco de terapia y dejar de mirar el móvil a las tres de la mañana te vendrían mejor que cualquier predicción.",
+    "conditions": null
   }
 ]
