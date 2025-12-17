@@ -84,9 +84,13 @@ class PredictionModel {
    * @param {object} criteria - { type, conditions }
    * @returns {object|null} Selected fragment or null
    */
-  static selectFragment(criteria) {
-    // Filter by type
-    let candidates = predictionsData.filter(f => f.type === criteria.type);
+    static selectFragment(criteria) {
+    const usedIds = criteria.usedIds || [];
+    
+    // Filter by type and exclude already used fragments
+    let candidates = predictionsData.filter(f => 
+      f.type === criteria.type && !usedIds.includes(f.id)
+    );
     
     // Apply conditions if they exist
     if (criteria.conditions) {
