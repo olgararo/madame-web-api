@@ -1,25 +1,29 @@
-/* (2.2) Las rutas actúan como un mapa que conecta una URL específica (/prediccion) con una función específica del controlador (getRandomReading).
-
-- Importo el controlador  predictionCOntroller
-- Creo un router (mini servidor para agrupar routas)
-- Definimos la primera ruta: "Cuando llegue una petición GET a la URL '/prediccion'...ejecuta la función 'getRandomReading' de mi controlador".
- */
-
 import express from "express";
-import predictionController from "../controller/PredictionController.js";
+import PredictionController from "../controller/PredictionController.js";
 
 const router = express.Router();
 
-router.get("/prediction", predictionController.getRandomReading);
-/* uso esta otra configuración de ruta para probar que funciona antes de tener datos
-router.get("/prediction", (req, res) => {
-  // 1. Aquí va la lógica para generar la predicción...
-  const miPrediccion = {
-    prediccion: "Hoy será un gran día para crear y aprender sobre APIs.",
-  };
+/**
+ * @route   GET /api/cards
+ * @desc    Get all available tarot cards
+ * @access  Public
+ */
+router.get("/cards", PredictionController.getAllCards);
 
-  // 2. Enviar la respuesta al cliente.
-  res.json(miPrediccion); 
-});*/
+/**
+ * @route   GET /api/cards/:id
+ * @desc    Get a single card by ID
+ * @access  Public
+ */
+router.get("/cards/:id", PredictionController.getCardById);
+
+/**
+ * @route   GET /api/prediction
+ * @desc    Generate a prediction based on 3 selected cards
+ * @query   card1, card2, card3 (IDs of the selected cards)
+ * @example /api/prediction?card1=1&card2=5&card3=12
+ * @access  Public
+ */
+router.get("/prediction", PredictionController.generatePrediction);
 
 export default router;

@@ -1,38 +1,130 @@
-/* (2.)Para hacer peticiones, hay 3 partes implicadas: El controlador, las rutas y la conexión con app.js.
+import PredictionModel from '../models/PredictionModel.js';
 
-- Creo el objeto predictionController, que contendrá todas las funciones del controlador, con un método (getRandomReading) que es el que se encargará de gestionar la petición
 
-(3.2) Actualizar el código para que utilice la predictionData:
--- Usamos try catch para manejo de errores
--- en cards usamos "spread operator" (...) para crear una copia del array
--- con pickRandomCard creamos una función para elegir un índice al azar del array que le pasemos. Splice extrae y devuelve el elemento de esa posición y no permita que se elija la misma carta.
--- Definimos la constantes de las 3 cartas a elegir para la predicción
--- Se define la construcción de la frase final que formará la predicción. Usamos "template literals" (las comillas invertidas ``) para construir
-*/
-
-import predictions from "../data/predictionsData.js";
-
-const predictionController = {
-  getRandomReading: (req, res) => {
+class PredictionController {
+  /**
+   * Get all available cards
+   * GET /api/cards
+   */
+  static getAllCards(req, res) {
     try {
-      const cards = [...predictions];
-      const pickRandomCard = (cardArray) => {
-        const randomIndex = Math.floor(Math.random() * cardArray.length);
-        return cardArray.splice(randomIndex, 1)[0];
-      };
+      const cards = PredictionModel.getAllCards();
 
-      const pastCard = pickRandomCard(cards);
-      const presentCard = pickRandomCard(cards);
-      const futureCard = pickRandomCard(cards);
-
-      const finalPrediction = `${pastCard.past}, ${presentCard.present}, ${futureCard.future}`;
-
-      res.status(200).json({ prediction: finalPrediction });
+      res.status(200).json({
+        success: true,
+        data: cards,
+        count: cards.length,
+      });
     } catch (error) {
-      console.error("Error al generar la predicción:", error);
-      res.status(500).json({ error: "Error interno del servidor" });
+      res.status(500).json({
+        success: false,
+        message: "Error retrieving cards",
+        error: error.message,
+      });
     }
-  },
-};
+  }
 
-export default predictionController;
+  /**
+   * Get a single card by ID
+   * GET /api/cards/:id
+   */
+  static getCardById(req, res) {
+    try {
+      const cardId = parseInt(req.params.id);
+
+      if (isNaN(cardId)) {
+        return res.status(400).json({
+          success: false,
+          message: "Invalid card ID. Must be a number",
+        });
+      }
+
+      const card = PredictionModel.getCardById(cardId);
+
+      if (!card) {
+        return res.status(404).json({
+          success: false,
+          message: `Card with ID ${cardId} not found`,
+        });
+      }
+
+      res.status(200).json({
+        success: true,
+        data: card,
+      });
+    } catch (error) {
+      res.status(500).json({
+        success: false,
+        message: "Error retrieving card",
+        error: error.message,
+      });
+    }
+  }
+
+  /**
+   * Generate a prediction based on 3 cards
+   * GET /api/prediction?card1=1&card2=5&card3=12
+   */
+  static generatePrediction(req, res) {
+    try {
+      // Extract and parse query parameters
+      const card1Id = parseInt(req.query.card1);
+      const card2Id = parseInt(req.query.card2);
+      const card3Id = parseInt(req.query.card3);
+
+      // Validate parameters exist
+      if (!req.query.card1 || !req.query.card2 || !req.query.card3) {
+        return res.status(400).json({
+          success: false,
+          message:
+            "Missing required parameters. Please provide card1, card2, and card3",
+        });
+      }
+
+      // Validate parameters are numbers
+      if (isNaN(card1Id) || isNaN(card2Id) || isNaN(card3Id)) {
+        return res.status(400).json({
+          success: false,
+          message: "Invalid card IDs. All card IDs must be numbers",
+        });
+      }
+
+      // Validate cards are different
+      if (card1Id === card2Id || card1Id === card3Id || card2Id === card3Id) {
+        return res.status(400).json({
+          success: false,
+          message:
+            "Cards must be different. You cannot select the same card twice",
+        });
+      }
+
+      // Generate prediction
+      const prediction = PredictionModel.generatePrediction(
+        card1Id,
+        card2Id,
+        card3Id
+      );
+
+      res.status(200).json({
+        success: true,
+        data: prediction,
+      });
+    } catch (error) {
+      // Handle specific error messages
+      if (error.message.includes("not found")) {
+        return res.status(404).json({
+          success: false,
+          message: error.message,
+        });
+      }
+
+      res.status(500).json({
+        success: false,
+        message: "Error generating prediction",
+        error: error.message,
+      });
+    }
+  }
+}
+
+export default PredictionController;
