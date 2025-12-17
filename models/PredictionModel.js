@@ -204,10 +204,8 @@ class PredictionModel {
       }
     }
     
-    return fullText.trim();
-    
-    return {
-      prediction: fullText,
+     return {
+      prediction: fullText.trim(),
       cards_used: [
         { id: card1.id, name: card1.name, position: 'past' },
         { id: card2.id, name: card2.name, position: 'present' },

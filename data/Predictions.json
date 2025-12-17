@@ -24,7 +24,7 @@
     "id": 10,
     "type": "transicion",
     "subtype": "conector_simple",
-    "text": "y para que no te relajes",
+    "text": "y para más inri",
     "conditions": null
   },
   {
@@ -46,6 +46,48 @@
     "type": "transicion",
     "subtype": "puente_futuro",
     "text": "lo que nos lleva inevitablemente a que",
+    "conditions": null
+  },
+  {
+    "id": 14,
+    "type": "transicion",
+    "subtype": "adicional",
+    "text": "además",
+    "conditions": null
+  },
+  {
+    "id": 15,
+    "type": "transicion",
+    "subtype": "contraste",
+    "text": "aunque curiosamente",
+    "conditions": null
+  },
+  {
+    "id": 16,
+    "type": "transicion",
+    "subtype": "remate",
+    "text": "y para rematar la jugada",
+    "conditions": null
+  },
+  {
+    "id": 17,
+    "type": "transicion",
+    "subtype": "consecuencia",
+    "text": "lo que nos lleva a que",
+    "conditions": null
+  },
+  {
+    "id": 18,
+    "type": "transicion",
+    "subtype": "temporal",
+    "text": "y mientras tanto",
+    "conditions": null
+  },
+  {
+    "id": 19,
+    "type": "transicion",
+    "subtype": "evidencia",
+    "text": "y como era de esperar",
     "conditions": null
   },
   {
