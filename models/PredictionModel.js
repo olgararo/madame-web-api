@@ -173,12 +173,29 @@ class PredictionModel {
       conditions: null
     });
     
-    // Assemble text
+    // Assemble text with proper punctuation
     const fragments = [intro, dev1, trans1, dev2, trans2, dev3, ending];
+    
     const fullText = fragments
       .filter(f => f !== null)
-      .map(f => f.text)
-      .join(' ');
+      .map((f, index) => {
+        let text = f.text.trim();
+        
+        // Capitalize first letter of each fragment (except first)
+        if (index > 0 && text.length > 0) {
+          // Only capitalize if it doesn't start with a lowercase connector word
+          const startsWithConnector = /^(y |pero |aunque |sin embargo |además |porque )/i.test(text);
+          if (!startsWithConnector && !text.match(/^[A-Z]/)) {
+            text = text.charAt(0).toUpperCase() + text.slice(1);
+          }
+        }
+        
+        return text;
+      })
+      .join(', ') // Use comma as default separator
+      .replace(/([.!?]),\s*/g, '$1 ') // Replace comma after punctuation with space
+      .replace(/,\s+([A-Z])/g, '. $1') // Replace comma before capital letter with period
+      .trim();
     
     return {
       prediction: fullText,
