@@ -7,7 +7,7 @@
     "energy": "positiva",
     "themes": ["nuevos comienzos", "riesgo", "espontaneidad", "libertad"],
     "arcanaImage": {
-      "imageUrl": "/images/el-loco.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056073/El_Loco_adeopt.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de El Loco: Jack Sparrow"
@@ -21,7 +21,7 @@
     "energy": "positiva",
     "themes": ["poder", "acción", "creatividad", "manifestación"],
     "arcanaImage": {
-      "imageUrl": "/images/el-mago.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056072/El_Mago_bpksyl.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de El Mago: Frieren"
@@ -35,7 +35,7 @@
     "energy": "neutra",
     "themes": ["intuición", "misterio", "subconsciente", "secretos"],
     "arcanaImage": {
-      "imageUrl": "/images/la-sacerdotisa.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056075/La_Sacerdotisa_ptoplp.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de La Sacerdotisa: Kikyo de Inuyasha"
@@ -49,7 +49,7 @@
     "energy": "positiva",
     "themes": ["abundancia", "creación", "naturaleza", "confort"],
     "arcanaImage": {
-      "imageUrl": "/images/la-emperatriz.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056072/La_Emperatriz_cejbgs.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de La Emperatriz: Daenerys Targaryen"
@@ -63,7 +63,7 @@
     "energy": "neutra",
     "themes": ["autoridad", "control", "estructura", "disciplina"],
     "arcanaImage": {
-      "imageUrl": "/images/el-emperador.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056071/El_Emperador_ovi6kt.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de El Emperador: Kuzco del Emperador y sus locuras"
@@ -77,7 +77,7 @@
     "energy": "neutra",
     "themes": ["tradición", "normas", "conformidad", "creencias"],
     "arcanaImage": {
-      "imageUrl": "/images/el-sumo-sacerdote.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056072/El_Sumo_Sacerdote_ooofbt.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de El Sumo Sacerdote: Charles Xavier de X-Men"
@@ -91,7 +91,7 @@
     "energy": "positiva",
     "themes": ["amor", "unión", "elección", "relaciones"],
     "arcanaImage": {
-      "imageUrl": "/images/los-amantes.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056078/Los_Amantes_qcrbht.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de Los Amantes: Gómez y Morticia Addams"
@@ -105,7 +105,7 @@
     "energy": "positiva",
     "themes": ["victoria", "ambición", "determinación", "control"],
     "arcanaImage": {
-      "imageUrl": "/images/el-carro.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056071/El_Carro_fay7o8.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de El Carro: Doc y Marty Mcfly en Regreso al futuro "
@@ -119,7 +119,7 @@
     "energy": "positiva",
     "themes": ["fuerza interior", "coraje", "paciencia", "compasión"],
     "arcanaImage": {
-      "imageUrl": "/images/la-fuerza.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056073/La_Fuerza_usgngm.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de La Fuerza: Tarzán"
@@ -133,7 +133,7 @@
     "energy": "neutra",
     "themes": ["introspección", "soledad", "sabiduría", "guía interior"],
     "arcanaImage": {
-      "imageUrl": "/images/el-ermitano.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056071/El_Ermitan%CC%83o_t5glws.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de El Ermitaño: Maomao de The Apothecary Diaries"
@@ -147,7 +147,7 @@
     "energy": "neutra",
     "themes": ["cambio", "ciclos", "suerte", "destino"],
     "arcanaImage": {
-      "imageUrl": "/images/la-rueda-de-la-fortuna.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056075/La_Rueda_de_la_Fortuna_t3hqfy.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de La Rueda de la Fortuna: Harvey Dent/ Dos-Caras, villano de Batman"
@@ -161,7 +161,7 @@
     "energy": "neutra",
     "themes": ["equilibrio", "verdad", "consecuencias", "ley"],
     "arcanaImage": {
-      "imageUrl": "/images/la-justicia.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056074/La_Justicia_w7grmm.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de La Justicia: Henry Cavill como Superman"
@@ -175,7 +175,7 @@
     "energy": "neutra",
     "themes": ["sacrificio", "espera", "rendición", "nueva perspectiva"],
     "arcanaImage": {
-      "imageUrl": "/images/el-colgado.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056071/El_Colgado_d0oo99.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de El Colgado: Spider-Man"
@@ -194,7 +194,7 @@
       "pérdida"
     ],
     "arcanaImage": {
-      "imageUrl": "/images/la-muerte.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056075/La_Muerte_mzftjh.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de La Muerte: Ryuk de Death Note"
@@ -208,7 +208,7 @@
     "energy": "positiva",
     "themes": ["equilibrio", "paciencia", "moderación", "armonía"],
     "arcanaImage": {
-      "imageUrl": "/images/la-templanza.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056076/La_Templanza_1_jcpuuq.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de La Templanza: Avatar Aang"
@@ -222,7 +222,7 @@
     "energy": "negativa",
     "themes": ["adicción", "materialismo", "limitaciones", "tentación"],
     "arcanaImage": {
-      "imageUrl": "/images/el-diablo.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056071/El_Diablo_xwinsq.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de El Diablo: Walter White en Breaking Bad"
@@ -236,7 +236,7 @@
     "energy": "negativa",
     "themes": ["caos", "revelación", "crisis", "cambio súbito"],
     "arcanaImage": {
-      "imageUrl": "/images/la-torre.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056077/La_Torre_ia2ckn.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de La Torre: La Tardis de Doctor Who"
@@ -250,7 +250,7 @@
     "energy": "positiva",
     "themes": ["esperanza", "fe", "inspiración", "sanación"],
     "arcanaImage": {
-      "imageUrl": "/images/la-estrella.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056073/La_Estrella_sfekvc.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de La Estrella: Beyoncé"
@@ -264,7 +264,7 @@
     "energy": "neutra",
     "themes": ["ilusión", "miedo", "ansiedad", "subconsciente"],
     "arcanaImage": {
-      "imageUrl": "/images/la-luna.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056074/La_Luna_rlgt8a.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de La Luna: Mizu de Blue Eye Samurai"
@@ -278,7 +278,7 @@
     "energy": "positiva",
     "themes": ["éxito", "alegría", "claridad", "vitalidad"],
     "arcanaImage": {
-      "imageUrl": "/images/el-sol.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056072/El_Sol_shg9kj.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de El Sol: Leslie Knope de Parks and Recreation"
@@ -292,7 +292,7 @@
     "energy": "neutra",
     "themes": ["evaluación", "despertar", "redención", "consecuencias"],
     "arcanaImage": {
-      "imageUrl": "/images/el-juicio.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056071/El_Juicio_ifyzza.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de El Juicio: V de Vendetta"
@@ -306,7 +306,7 @@
     "energy": "positiva",
     "themes": ["éxito", "realización", "integración", "fin de ciclo"],
     "arcanaImage": {
-      "imageUrl": "/images/el-mundo.jpg",
+      "imageUrl": "https://res.cloudinary.com/dwatee5z1/image/upload/v1766056072/El_Mundo_ewq7qo.png",
       "author": "Generada por OlgaRaRo vía Google AI Studio (Nano Banana)",
       "licenseUrl": "",
       "altText": "Representación de El Mundo: Doctor Manhattan de Watchmen"
