@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 // CACHE only for arcanas (unchanging data)
-app.use('/api/cards', (req, res, next) => {
+app.use('/api/arcanas', (req, res, next) => {
   res.set('Cache-Control', 'public, max-age=3600'); // 1 hour
   next();
 });
