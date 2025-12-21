@@ -3,24 +3,24 @@ import predictionsData from "../data/Predictions.json" with { type: "json" };
 
 class PredictionModel {
   /**
-   * Get a card by its ID
-   * @param {number} id - Card ID
-   * @returns {object|null} Card object or null if not found
+   * Get an arcana by its ID
+   * @param {number} id - Arcana ID
+   * @returns {object|null} Arcana object or null if not found
    */
-  static getCardById(id) {
-    return arcanaData.find((card) => card.id === id) || null;
+  static getArcanaById(id) {
+    return arcanaData.find((arcana) => arcana.id === id) || null;
   }
 
   /**
-   * Get all cards
-   * @returns {array} Array of all cards
+   * Get all arcanas
+   * @returns {array} Array of all arcanas
    */
-  static getAllCards() {
+  static getAllArcanas() {
     return arcanaData;
   }
 
   /**
-   * Calculate dominant energy from 3 cards
+   * Calculate dominant energy from 3 arcanas
    * @param {array} energies - Array of energy strings ['positiva', 'negativa', 'neutra']
    * @returns {string} Dominant energy
    */
@@ -106,7 +106,6 @@ class PredictionModel {
       if (matching.length > 0) {
         candidates = matching;
       } else {
-        // Fallback: fragments without conditions
         const fallback = candidates.filter((f) => !f.conditions);
         if (fallback.length > 0) {
           candidates = fallback;
@@ -120,17 +119,16 @@ class PredictionModel {
   }
 
   /**
-   * Generate a complete prediction from 3 cards
+   * Generate a complete prediction from 3 arcanas
    * @param {number} card1Id - First card ID
    * @param {number} card2Id - Second card ID
    * @param {number} card3Id - Third card ID
-   * @returns {object} Prediction object with text and card info
+   * @returns {object} Prediction object with text and arcana info
    */
   static generatePrediction(card1Id, card2Id, card3Id) {
-    // Get cards
-    const card1 = this.getCardById(card1Id);
-    const card2 = this.getCardById(card2Id);
-    const card3 = this.getCardById(card3Id);
+    const card1 = this.getArcanaById(card1Id);
+    const card2 = this.getArcanaById(card2Id);
+    const card3 = this.getArcanaById(card3Id);
 
     // Validate cards exist
     if (!card1 || !card2 || !card3) {
@@ -217,14 +215,11 @@ class PredictionModel {
 
       // Add appropriate punctuation between fragments
       if (nextFragment) {
-        // Check if current fragment already ends with punctuation
         const endsWithPunctuation = /[.!?]$/.test(fragment.text);
 
         if (endsWithPunctuation) {
-          // Just add space
           fullText += " ";
         } else {
-          // Add comma and space
           fullText += ", ";
         }
       }

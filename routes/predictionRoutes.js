@@ -4,23 +4,23 @@ import PredictionController from "../controller/PredictionController.js";
 const router = express.Router();
 
 /**
- * @route   GET /api/cards
- * @desc    Get all available tarot cards
+ * @route   GET /api/arcanas
+ * @desc    Get all available tarot arcanas
  * @access  Public
  */
-router.get("/cards", PredictionController.getAllCards);
+router.get("/arcanas", PredictionController.getAllArcanas);
 
 /**
- * @route   GET /api/cards/:id
- * @desc    Get a single card by ID
+ * @route   GET /api/arcanas/:id
+ * @desc    Get a single arcana by ID
  * @access  Public
  */
-router.get("/cards/:id", PredictionController.getCardById);
+router.get("/arcanas/:id", PredictionController.getArcanaById);
 
 /**
  * @route   GET /api/prediction
- * @desc    Generate a prediction based on 3 selected cards
- * @query   card1, card2, card3 (IDs of the selected cards)
+ * @desc    Generate a prediction based on 3 selected arcanas
+ * @query   card1, card2, card3 (IDs of the selected arcanas)
  * @example /api/prediction?card1=1&card2=5&card3=12
  * @access  Public
  */
