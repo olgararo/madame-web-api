@@ -14,12 +14,24 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
-// Ruta raíz
+// CACHE only for arcanas (unchanging data)
+app.use('/api/cards', (req, res, next) => {
+  res.set('Cache-Control', 'public, max-age=3600'); // 1 hour
+  next();
+});
+
+// no cache for predictions (dynamic data)
+app.use('/api/prediction', (req, res, next) => {
+  res.set('Cache-Control', 'no-cache'); // Siempre fresco
+  next();
+});
+
+// Root
 app.get("/", (req, res) => {
   res.send("Hola, soy la API de Madame Web. Estoy viiiiiiva.... viiiiiiva!");
 });
 
-//Rutas de la API
+// API routes
 app.use("/api", predictionRoutes);
 
 export const server = app.listen(PORT, () => {
