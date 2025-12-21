@@ -364,7 +364,7 @@ Pitonisa junior y programadora Full Stack
 ## 🙏 Agradecimientos
 
 - A la procrastinación, por ser mi musa constante
-- Al café, por mantenerme despierta durante las sesiones de debugging
+- Al café, por existir
 - A mis bugs, por enseñarme humildad
 - A ti, por leer hasta aquí (en serio, gracias)
 
