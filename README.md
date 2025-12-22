@@ -319,19 +319,6 @@ El algoritmo selecciona fragmentos de texto basándose en:
 
 ---
 
-## 🧪 Testing
-```bash
-npm test
-```
-
-Los tests incluyen:
-- ✅ Validación de endpoints
-- ✅ Manejo de errores
-- ✅ Lógica de predicciones
-- ✅ Cálculo de energía dominante
-
----
-
 ## 🤝 Contribuir
 
 ¿Quieres añadir más fragmentos sarcásticos o mejorar el algoritmo? ¡Bienvenida sea tu contribución!
@@ -345,11 +332,6 @@ Los tests incluyen:
 
 ---
 
-## 📄 Licencia
-
-ISC © 2025 [OlgaRaRo](https://github.com/olgararo)
-
----
 
 ## 👩‍💻 Autora
 
